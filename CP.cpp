@@ -9,7 +9,8 @@ using namespace std;
 // as a side effect it makes execution of code faster
 #define fast ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 #define testcase while (tc--)
-#define for for (i = 0; i < n; i++)
+#define for0 for (i = 0; i < n; i++)
+#define for1 for (i = 1; i <= n; i++)
 #define vi vector<int>
 #define si set<int>
 #define vs vector<string>
