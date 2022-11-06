@@ -4,13 +4,9 @@ using namespace std;
 #define main int main()
 #define sf scanf
 #define pf printf
-// cin.tie & cout.tie automatically flushes
-// sync disables synchronization between c & c++
-// as a side effect it makes execution of code faster
-#define fast ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 #define testcase while (t--)
 #define for0 for (i = 0; i < n; i++)
-#define for1 for (i = 1; i <= n; i++)
+#define for1 for (j = 1; j <= n; j++)
 #define vi vector<int>
 #define si set<int>
 #define vs vector<string>
@@ -29,7 +25,6 @@ const int I5 = 1e5;
 
 main
 {
-    // Start Code
 
     return 0;
 }
