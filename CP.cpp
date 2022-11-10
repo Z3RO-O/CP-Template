@@ -22,7 +22,19 @@ using namespace std;
 const int I9 = 1e9;
 const int I7 = 1e7;
 const int I5 = 1e5;
+/* direction array */
+int dx4[] = {1, -1, 0, 0};
+int dy4[] = {0, 0, 1, -1};
+int dx6[] = {0, 0, 1, -1, 0, 0};
+int dy6[] = {1, -1, 0, 0, 0, 0};
+int dz6[] = {0, 0, 0, 0, 1, -1};
+int dx8[] = {1, -1, 0, 0, -1, 1, -1, 1};
+int dy8[] = {0, 0, 1, -1, 1, 1, -1, -1};
+int dkx8[] = {-1, 1, -1, 1, -2, -2, 2, 2};
+int dky8[] = {2, 2, -2, -2, 1, -1, 1, -1};
+/* direction array */
 
+// Toh Chaliye Shuru karte...
 main
 {
 
