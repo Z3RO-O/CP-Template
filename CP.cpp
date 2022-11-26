@@ -17,7 +17,8 @@ using namespace std;
 #define vs vector<string>
 #define pii pair<int, int>
 #define mii map<int, int>
-#define ms map<string, int>
+#define mci map<char, int>
+#define msi map<string, int>
 #define pb push_back
 #define eb emplace_back
 #define ull unsigned long long
