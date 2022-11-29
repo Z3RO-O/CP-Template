@@ -2,12 +2,11 @@
 using namespace std;
 
 #define main int main()
-#define sf scanf
-#define pf printf
 #define T     \
     int t;    \
     cin >> t; \
     while (t--)
+#define all(v) (v).begin(), (v).end()
 #define fast ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 #define for0 for (i = 0; i < n; i++)
 #define for1 for (j = 1; j <= n; j++)
@@ -43,6 +42,6 @@ int dky8[] = {2, 2, -2, -2, 1, -1, 1, -1};*/
 // Toh Chaliye Shuru karte...
 main
 {
-
+    fast;
     return 0;
 }
